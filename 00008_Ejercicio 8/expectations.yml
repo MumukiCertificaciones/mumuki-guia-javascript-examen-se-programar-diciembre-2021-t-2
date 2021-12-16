@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$OBJETO"
+  inspection: DeclaresMethod:$METODO
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$METODO"
+  inspection: Uses:count
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$METODO"
+  inspection: Not:Uses:select

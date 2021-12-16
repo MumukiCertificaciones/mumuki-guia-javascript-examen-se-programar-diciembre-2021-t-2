@@ -1,0 +1,28 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+OBJETO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Alvin
+  - Ofelia
+  - Atrix
+MONEDAS_INICIALES: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 1
+  - 10
+MONEDAS_CORTE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 50
+  - 80
+METODO_DUPLICAR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - duplicar_monedas!
+  - duplicar!
+METODO_LEYENDA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - leyenda?
+  - profesional?
+  - increible?

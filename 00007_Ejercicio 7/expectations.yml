@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:$OBJETO
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$OBJETO"
+  inspection: DeclaresMethod:monedas
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$OBJETO"
+  inspection: DeclaresMethod:$METODO_DUPLICAR
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$OBJETO"
+  inspection: DeclaresMethod:$METODO_LEYENDA
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$METODO_LEYENDA"
+  inspection: Not:UsesIf

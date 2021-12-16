@@ -1,0 +1,21 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+STRING_ULTIMO_PEDIDO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - hizo su último pedido el
+  - pidió por última vez el
+  - tiene como fecha de último pedido el
+STRING_PEDIDOS: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - y realizó en total
+  - y tiene registrados
+  - y ha hecho en total
+  - y tiene hechos en total
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - resumenEnvios
+  - resumenDeInformacion
+  - resumenInformacion
+  - resumenDeLosEnvios

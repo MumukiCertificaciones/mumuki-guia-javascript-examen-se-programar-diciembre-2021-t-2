@@ -1,0 +1,20 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$CLASE"
+  inspection: DeclaresMethod:$METODO_INTERESANTE
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$INTERESANTE_1"
+  inspection: DeclaresMethod:interesante?
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Museo
+  inspection: DeclaresMethod:interesante?
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Puente
+  inspection: DeclaresMethod:interesante?
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Museo
+  inspection: Not:Assigns
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Puente
+  inspection: Not:Assigns

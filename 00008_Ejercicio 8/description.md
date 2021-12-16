@@ -1,0 +1,3 @@
+En un curso tenemos un conjunto de estudiantes, a la hora de cerrar las actas es necesario saber cuántas personas aprobaron :white_check_mark:. Teniendo en cuenta que cada estudiante sabe responder al mensaje `$PREDEFINIDO`...
+
+> Definí en Ruby el método `$METODO` que responda a cuántas personas aprobaron de `$OBJETO`.

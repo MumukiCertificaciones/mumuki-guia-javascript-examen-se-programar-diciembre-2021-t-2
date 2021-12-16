@@ -1,0 +1,25 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+COLOR_1: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Negro
+  - Verde
+  - Rojo
+COLOR_2: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Verde
+  - Negro
+  - Rojo
+COLOR_3: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Rojo
+  - Verde
+  - Negro
+COLOR_4: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Negro
+  - Rojo
+  - Verde

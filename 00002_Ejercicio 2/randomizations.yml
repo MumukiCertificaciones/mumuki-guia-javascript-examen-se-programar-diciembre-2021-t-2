@@ -1,0 +1,14 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+PROCEDIMIENTO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - DecorarTorta
+  - PonerConfites
+  - Decorar
+  - ColocarConfites
+COLOR_EJEMPLO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Rojo
+  - Azul
+  - Verde

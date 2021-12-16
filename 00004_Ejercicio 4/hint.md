@@ -1,0 +1,1 @@
+Tené en cuenta que la palabra `Vamos` en el string que retornamos está con la v en mayúscula. :wink:

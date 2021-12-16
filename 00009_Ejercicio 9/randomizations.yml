@@ -1,0 +1,27 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+INTERESANTE_1: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Monumento
+  - Mausoleo
+METODO_INTERESANTE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - atracciones_interesantes
+  - lugares_interesantes
+  - destinos_interesantes
+CLASE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Ciudad
+  - Pais
+  - Localidad
+  - Lugar
+ANTIGUEDAD_CORTE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - '100'
+  - '150'
+  - '200'
+  - '250'
+  - '300'

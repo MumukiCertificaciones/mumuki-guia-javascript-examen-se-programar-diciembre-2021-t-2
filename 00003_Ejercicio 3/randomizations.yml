@@ -1,0 +1,19 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+COTA_INFERIOR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 20
+  - 35
+COTA_SUPERIOR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 60
+  - 75
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - estaEnRango
+  - esRecomendable
+  - esVolumenRecomendable
+  - esUnVolumenRecomendable
+  - elVolumenEstaEnRango

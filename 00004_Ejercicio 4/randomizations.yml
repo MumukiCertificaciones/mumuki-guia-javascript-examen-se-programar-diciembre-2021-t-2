@@ -1,0 +1,20 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+UNA_DIRECCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - norte
+  - este
+  - noreste
+OTRA_DIRECCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - sur
+  - oeste
+  - sudoeste
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - dondeIr
+  - dondeVamos
+  - adondeVamos
+  - haciaDondeVamos
